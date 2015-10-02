@@ -4,6 +4,10 @@
 
 * [`3.0.5`, `latest` (v3.0.5/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.5)
 * [`3.0.4` (v3.0.4/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.4)
+* [`3.0.3` (v3.0.3/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.3)
+* [`3.0.2` (v3.0.2/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.2)
+* [`3.0.1` (v3.0.1/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.1)
+* [`3.0.0` (v3.0.0/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.0)
 
 ## What is Mapnik ?
 Mapnik is an open source toolkit for developing mapping applications and rendering maps. 
