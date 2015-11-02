@@ -2,7 +2,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
-* [`3.0.5`, `latest` (v3.0.5/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.5)
+* [`3.0.6`, `latest` (v3.0.6/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.6)
+* [`3.0.5` (v3.0.5/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.5)
 * [`3.0.4` (v3.0.4/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.4)
 * [`3.0.3` (v3.0.3/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.3)
 * [`3.0.2` (v3.0.2/Dockerfile)](https://github.com/mapsquare/docker-mapnik3/tree/master/v3.0.2)
