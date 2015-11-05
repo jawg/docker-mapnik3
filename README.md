@@ -19,7 +19,7 @@ More informations on mapnik.org and [GitHub](https://github.com/mapnik/mapnik)
 ## Usage
 If you have for example a node project
 ```Dockerfile
-FROM mapsquare/mapnik3:3.0.5
+FROM mapsquare/mapnik3:latest
 
 # Install curl and nodejs with script
 RUN apt-get update \
