@@ -17,6 +17,8 @@ FROM debian:jessie
 MAINTAINER Jones Magloire <jmagloire@ebusinessinformation.fr>
 MAINTAINER Loic Ortola <lortola@ebusinessinformation.fr>
 
+ENV MAPNIK_VERSION v3.0.7
+
 RUN apt-get update \
     && apt-get install -y \
         build-essential libfreetype6 libfreetype6-dev \
@@ -24,19 +26,17 @@ RUN apt-get update \
         libboost-dev libboost-filesystem-dev \
         libboost-regex-dev libboost-thread-dev \
         libboost-system-dev libboost-program-options-dev \
-        git python
-
-ENV MAPNIK_VERSION v3.0.7
-
-RUN git clone https://github.com/mapnik/mapnik.git \
+        git python \
+    && git clone https://github.com/mapnik/mapnik.git \
     && cd mapnik \
     && git checkout $MAPNIK_VERSION \
     && git submodule update --init \
     && ./configure \
     && make \
-    && make install
-
-RUN rm -r mapnik \
+    && make install \
+    && cd - \
+    && rm -r mapnik \
     && apt-get purge -y git build-essential \
     && apt-get autoremove -y \
+    && apt-get purge -y $(dpkg -l | grep ^rc | cut -d' ' -f 3) \
     && rm -rf /var/lib/apt/lists/*
