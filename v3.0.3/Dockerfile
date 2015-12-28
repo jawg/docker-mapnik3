@@ -36,6 +36,5 @@ RUN apt-get update \
     && make install \
     && cd - \
     && rm -r mapnik \
-    && apt-get purge -y git build-essential \
-    && apt-get autoremove -y --purge \
+    && apt-get autoremove -y --purge git build-essential \
     && rm -rf /var/lib/apt/lists/*
