@@ -2,7 +2,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--   [`3.0.11`, `latest` (v3.0.11/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.11)
+-   [`3.0.12`, `latest` (v3.0.12/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.12)
+-   [`3.0.11` (v3.0.11/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.11)
 -   [`3.0.10` (v3.0.10/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.10)
 -   [`3.0.9` (v3.0.9/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.9)
 -   [`3.0.8` (v3.0.8/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.8)
@@ -60,8 +61,6 @@ docker pull jawg/mapnik3:3.0.0
 ```
 
 ## Usage
-
-If you have for example a node project
 
 ```Dockerfile
 FROM jawg/mapnik3:3.0.0
