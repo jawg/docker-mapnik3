@@ -2,7 +2,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--   [`3.0.12`, `latest` (v3.0.12/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.12)
+-   [`3.0.13`, `latest` (v3.0.13/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.13)
+-   [`3.0.12` (v3.0.12/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.12)
 -   [`3.0.11` (v3.0.11/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.11)
 -   [`3.0.10` (v3.0.10/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.10)
 -   [`3.0.9` (v3.0.9/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.9)
@@ -24,7 +25,7 @@ More informations on mapnik.org and [GitHub](https://github.com/mapnik/mapnik)
 # About this image
 
 The `jawg/mapnik3:latest` tag will always point the latest stable release (which is, at the time of this writing, `jawg/mapnik3:3.0.11`).
-All stable images are based on `debian:jessie`.
+All stable images are based on `debian:jessie-slim`.
 
 Images contain mapnik3 source headers (in `/usr/local/include/mapnik/`), compiled sources (in `/usr/local/lib/`) and some plugins (in `/usr/local/lib/mapnik/input/`).
 Available plugins are:

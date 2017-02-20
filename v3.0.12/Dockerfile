@@ -12,10 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM debian:jessie
-
-MAINTAINER Jones Magloire <jmagloire@ebusinessinformation.fr>
-MAINTAINER Loic Ortola <lortola@ebusinessinformation.fr>
+FROM debian:jessie-slim
 
 ENV MAPNIK_VERSION v3.0.12
 
