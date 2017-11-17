@@ -78,4 +78,5 @@ RUN apt-get update \
     && cd - \
     && rm -r mapnik \
     && apt-get autoremove -y --purge $BUILD_DEPENDENCIES \
-    && rm -rf /var/lib/apt/lists/*
+    && rm -rf /var/lib/apt/lists/* \
+    && ln -s /usr/local/lib/mapnik /usr/lib/mapnik

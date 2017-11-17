@@ -14,7 +14,7 @@
 
 FROM debian:jessie-slim
 
-ENV MAPNIK_VERSION v3.0.7
+ENV MAPNIK_VERSION v3.0.16
 
 ENV BUILD_DEPENDENCIES="build-essential \
     ca-certificates \

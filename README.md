@@ -2,22 +2,23 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--   [`3.0.15`, `latest` (v3.0.15/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.15)
--   [`3.0.14` (v3.0.14/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.14)
--   [`3.0.13` (v3.0.13/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.13)
--   [`3.0.12` (v3.0.12/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.12)
--   [`3.0.11` (v3.0.11/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.11)
--   [`3.0.10` (v3.0.10/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.10)
--   [`3.0.9` (v3.0.9/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.9)
--   [`3.0.8` (v3.0.8/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.8)
--   [`3.0.7` (v3.0.7/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.7)
--   [`3.0.6` (v3.0.6/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.6)
--   [`3.0.5` (v3.0.5/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.5)
--   [`3.0.4` (v3.0.4/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.4)
--   [`3.0.3` (v3.0.3/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.3)
--   [`3.0.2` (v3.0.2/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.2)
--   [`3.0.1` (v3.0.1/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.1)
--   [`3.0.0` (v3.0.0/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.0)
+-   [`3.0.16`, `latest` (v3.0.16/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.16/Dockerfile)
+-   [`3.0.15` (v3.0.15/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.15/Dockerfile)
+-   [`3.0.14` (v3.0.14/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.14/Dockerfile)
+-   [`3.0.13` (v3.0.13/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.13/Dockerfile)
+-   [`3.0.12` (v3.0.12/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.12/Dockerfile)
+-   [`3.0.11` (v3.0.11/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.11/Dockerfile)
+-   [`3.0.10` (v3.0.10/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.10/Dockerfile)
+-   [`3.0.9` (v3.0.9/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.9/Dockerfile)
+-   [`3.0.8` (v3.0.8/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.8/Dockerfile)
+-   [`3.0.7` (v3.0.7/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.7/Dockerfile)
+-   [`3.0.6` (v3.0.6/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.6/Dockerfile)
+-   [`3.0.5` (v3.0.5/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.5/Dockerfile)
+-   [`3.0.4` (v3.0.4/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.4/Dockerfile)
+-   [`3.0.3` (v3.0.3/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.3/Dockerfile)
+-   [`3.0.2` (v3.0.2/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.2/Dockerfile)
+-   [`3.0.1` (v3.0.1/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.1/Dockerfile)
+-   [`3.0.0` (v3.0.0/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.0/Dockerfile)
 
 ## What is Mapnik ?
 
@@ -26,10 +27,10 @@ More informations on mapnik.org and [GitHub](https://github.com/mapnik/mapnik)
 
 # About this image
 
-The `jawg/mapnik3:latest` tag will always point the latest stable release (which is, at the time of this writing, `jawg/mapnik3:3.0.11`).
+The `jawg/mapnik3:latest` tag will always point the latest stable release (which is, at the time of this writing, `jawg/mapnik3:3.0.16`).
 All stable images are based on `debian:jessie-slim`.
 
-Images contain mapnik3 source headers (in `/usr/local/include/mapnik/`), compiled sources (in `/usr/local/lib/`) and some plugins (in `/usr/local/lib/mapnik/input/`).
+Images contain mapnik3 source headers (in `/usr/local/include/mapnik/`), compiled sources (in `/usr/local/lib/`) and some plugins (in `/usr/local/lib/mapnik/input/` with symlink to `/usr/lib/mapnik`).
 Available plugins are:
 
 -   gdal
