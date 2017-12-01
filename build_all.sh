@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-for i in {0..16}; do
+for i in {0..17}; do
   echo "Building jawg/mapnik3:3.0.$i"
   docker build --pull -q -t jawg/mapnik3:3.0.$i v3.0.$i
   echo "Pushing jawg/mapnik3:3.0.$i"
