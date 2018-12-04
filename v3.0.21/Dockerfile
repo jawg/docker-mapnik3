@@ -14,7 +14,7 @@
 
 FROM debian:stretch-slim
 
-ENV MAPNIK_VERSION v3.0.19
+ENV MAPNIK_VERSION v3.0.21
 
 ENV BUILD_DEPENDENCIES="build-essential \
     ca-certificates \

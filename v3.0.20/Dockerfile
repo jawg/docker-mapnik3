@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM debian:jessie-slim
+FROM debian:stretch-slim
 
 ENV MAPNIK_VERSION v3.0.20
 
@@ -34,33 +34,33 @@ ENV BUILD_DEPENDENCIES="build-essential \
     libjpeg-dev \
     libpq-dev  \
     libproj-dev \
-    librasterlite-dev \
+    librasterlite2-dev \
     libsqlite3-dev \
     libtiff-dev \
     libwebp-dev"
 
-ENV DEPENDENCIES="libboost-filesystem1.55.0 \
-    libboost-program-options1.55.0 \
-    libboost-regex1.55.0 \
-    libboost-thread1.55.0 \
-    libboost-system1.55.0 \
+ENV DEPENDENCIES="libboost-filesystem1.62.0 \
+    libboost-program-options1.62.0 \
+    libboost-regex1.62.0 \
+    libboost-thread1.62.0 \
+    libboost-system1.62.0 \
     libcairo2 \
     libfreetype6 \
-    libgdal1h \
+    libgdal20 \
     libharfbuzz-gobject0 \
     libharfbuzz-icu0 \
     libharfbuzz0b \
-    libicu52 \
+    libicu57 \
     libjpeg62-turbo \
     libpq5 \
-    libproj0 \
-    librasterlite2 \
+    libproj12 \
+    librasterlite2-1 \
     libsqlite3-0 \
     libtiff5 \
     libtiffxx5 \
-    libwebp5  \
-    libwebpdemux1 \
-    libwebpmux1 \
+    libwebp6  \
+    libwebpdemux2 \
+    libwebpmux2 \
     python"
 
 RUN apt-get update \
