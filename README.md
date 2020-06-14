@@ -2,7 +2,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--   [`3.0.22`, `latest` (v3.0.22/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.22/Dockerfile)
+-   [`3.0.23`, `latest` (v3.0.23/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.23/Dockerfile)
+-   [`3.0.22` (v3.0.22/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.22/Dockerfile)
 -   [`3.0.21` (v3.0.21/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.21/Dockerfile)
 -   [`3.0.20` (v3.0.20/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.20/Dockerfile)
 -   [`3.0.19` (v3.0.19/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.19/Dockerfile)
