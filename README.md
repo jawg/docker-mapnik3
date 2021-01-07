@@ -2,30 +2,9 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--   [`3.0.23`, `latest` (v3.0.23/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.23/Dockerfile)
+-   [`3.0.24`, `latest` (v3.0.24/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.24/Dockerfile)
+-   [`3.0.23` (v3.0.23/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.23/Dockerfile)
 -   [`3.0.22` (v3.0.22/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.22/Dockerfile)
--   [`3.0.21` (v3.0.21/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.21/Dockerfile)
--   [`3.0.20` (v3.0.20/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.20/Dockerfile)
--   [`3.0.19` (v3.0.19/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.19/Dockerfile)
--   [`3.0.18` (v3.0.18/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.18/Dockerfile)
--   [`3.0.17` (v3.0.17/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.17/Dockerfile)
--   [`3.0.16` (v3.0.16/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.16/Dockerfile)
--   [`3.0.15` (v3.0.15/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.15/Dockerfile)
--   [`3.0.14` (v3.0.14/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.14/Dockerfile)
--   [`3.0.13` (v3.0.13/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.13/Dockerfile)
--   [`3.0.12` (v3.0.12/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.12/Dockerfile)
--   [`3.0.11` (v3.0.11/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.11/Dockerfile)
--   [`3.0.10` (v3.0.10/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.10/Dockerfile)
--   [`3.0.9` (v3.0.9/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.9/Dockerfile)
--   [`3.0.8` (v3.0.8/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.8/Dockerfile)
--   [`3.0.7` (v3.0.7/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.7/Dockerfile)
--   [`3.0.6` (v3.0.6/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.6/Dockerfile)
--   [`3.0.5` (v3.0.5/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.5/Dockerfile)
--   [`3.0.4` (v3.0.4/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.4/Dockerfile)
--   [`3.0.3` (v3.0.3/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.3/Dockerfile)
--   [`3.0.2` (v3.0.2/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.2/Dockerfile)
--   [`3.0.1` (v3.0.1/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.1/Dockerfile)
--   [`3.0.0` (v3.0.0/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.0/Dockerfile)
 
 ## What is Mapnik ?
 
