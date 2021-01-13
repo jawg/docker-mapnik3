@@ -2,9 +2,8 @@
 
 ## Supported tags and respective `Dockerfile` links
 
--   [`3.0.24`, `latest` (v3.0.24/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.24/Dockerfile)
--   [`3.0.23` (v3.0.23/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.23/Dockerfile)
--   [`3.0.22` (v3.0.22/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0.22/Dockerfile)
+-   [`3.1`, `latest` (v3.1/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.1/Dockerfile)
+-   [`3.0` (v3.0/Dockerfile)](https://github.com/jawg/docker-mapnik3/tree/master/v3.0/Dockerfile)
 
 ## What is Mapnik ?
 
@@ -35,25 +34,25 @@ From sources with this command :
 
 ```sh
 git clone https://github.com/jawg/docker-mapnik3.git
-docker build -t jawg/mapnik3 docker-mapnik3/v3.0.22
+docker build -t jawg/mapnik3 docker-mapnik3/v3.1
 ```
 
 Or build with the url :
 
 ```sh
-docker build -t jawg/mapnik3 github.com/jawg/docker-mapnik3#master:v3.0.22
+docker build -t jawg/mapnik3 github.com/jawg/docker-mapnik3#master:v3.1
 ```
 
 Or pull the image from [docker hub](https://hub.docker.com/r/jawg/mapnik3/) :
 
 ```sh
-docker pull jawg/mapnik3:3.0.22
+docker pull jawg/mapnik3:3.1
 ```
 
 ## Usage
 
 ```Dockerfile
-FROM jawg/mapnik3:3.0.22
+FROM jawg/mapnik3:3.1
 
 ENTRYPOINT ["mapnik-render"]
 ```

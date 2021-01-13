@@ -1,4 +1,4 @@
-#   Copyright 2015-2019 Jawg Maps
+#   Copyright 2015-2021 Jawg Maps
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 
 FROM debian:buster-slim
 
-ENV MAPNIK_VERSION v3.0.24
+ENV MAPNIK_VERSION v3.1.0
 
 ENV BUILD_DEPENDENCIES="build-essential \
     ca-certificates \
