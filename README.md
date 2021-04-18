@@ -12,8 +12,8 @@ More informations on mapnik.org and [GitHub](https://github.com/mapnik/mapnik)
 
 # About this image
 
-The `jawg/mapnik3:latest` tag will always point the latest stable release (which is, at the time of this writing, `jawg/mapnik3:3.0.18`).
-All stable images are based on `debian:jessie-slim`.
+The `jawg/mapnik3:latest` tag will always point the latest stable release (which is, at the time of this writing, `jawg/mapnik3:3.1`).
+All stable images are based on `debian:buster-slim`.
 
 Images contain mapnik3 source headers (in `/usr/local/include/mapnik/`), compiled sources (in `/usr/local/lib/`) and some plugins (in `/usr/local/lib/mapnik/input/` with symlink to `/usr/lib/mapnik`).
 Available plugins are:
