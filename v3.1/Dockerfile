@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 
 ENV MAPNIK_VERSION v3.1.0
 
@@ -39,21 +39,21 @@ ENV BUILD_DEPENDENCIES="build-essential \
     libtiff-dev \
     libwebp-dev"
 
-ENV DEPENDENCIES="libboost-filesystem1.67.0 \
-    libboost-program-options1.67.0 \
-    libboost-regex1.67.0 \
-    libboost-thread1.67.0 \
-    libboost-system1.67.0 \
+ENV DEPENDENCIES="libboost-filesystem1.74.0 \
+    libboost-program-options1.74.0 \
+    libboost-regex1.74.0 \
+    libboost-thread1.74.0 \
+    libboost-system1.74.0 \
     libcairo2 \
     libfreetype6 \
-    libgdal20 \
+    libgdal28 \
     libharfbuzz-gobject0 \
     libharfbuzz-icu0 \
     libharfbuzz0b \
-    libicu63 \
+    libicu67 \
     libjpeg62-turbo \
     libpq5 \
-    libproj13 \
+    libproj19 \
     librasterlite2-1 \
     libsqlite3-0 \
     libtiff5 \
